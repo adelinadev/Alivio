@@ -1,0 +1,44 @@
+.story {
+    background-color: #245852;
+    color: #fff;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.story-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.story-content {
+    margin-right: 30px;
+}
+
+.story-heading {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Georgia', serif;
+}
+
+.story-heading + *{
+    margin-top: 33px;
+}
+
+.story-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 157%;
+    margin-bottom: 100px;
+}
+.story-btn {
+    display: flex;
+}
+
+
+.story-video {
+    background-color: #245852;
+    max-width: 895px;
+    border-radius: 18px;
+    overflow: hidden;
+}
