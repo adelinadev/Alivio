@@ -13,8 +13,10 @@
     <link rel="stylesheet" href="./css/blocks/home.css">
     <link rel="stylesheet" href="./css/blocks/how-it-works.css">
     <link rel="stylesheet" href="./css/blocks/story.css">
-    <link rel="stylesheet" href="./css/blocks/product.css">
     <link rel="stylesheet" href="./css/blocks/card.css">
+    <link rel="stylesheet" href="./css/blocks/product.css">
+    <link rel="stylesheet" href="./css/blocks/mobile-nav-button.css">  
+    <link rel="stylesheet" href="./css/blocks/mobile-nav.css">   
     <link rel="stylesheet" href="./css/blocks/footer.css">
     <!-- Fonts -->
     <link rel="stylesheets" href="./fonts/Georgia/stylesheet.css">
@@ -38,9 +40,27 @@
                     <a href="#" class="header-login-link">Sign in</a>
                     <a href="#" class="btn">Start Trial</a>
                 </div>
+                <button type="button" class="mobile-nav-button">
+                    <span class="mobile-nav-button__icon"></span>
+                </button>
             </div>
         </div>
     </header>
+    <div class="mobile-nav">
+        <img src="./img/Logo.svg" alt="Logo" class="mobile-nav-logo">
+        <nav class="mobile-nav-list">
+            <ul>
+                <li><a href="#">Why Alivio</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-login">
+            <a href="#">Sign in</a>
+            <a href="#" class="btn btn-big">Start Trial</a>
+        </div>
+    </div>
 
     <main>
         <section class="home">
@@ -81,7 +101,7 @@
                             work on. This way, we can fully personalize your journal!
                             </p>
                         </div>
-                        <img class="step-img" src="/img/Group 57.jpg" alt="Step img">
+                        <img class="step-img" src="./img/Group 57.jpg" alt="Step img">
                     </div>
                     <div class="step">
                         <h3 class="step-heading" data-number="02">Write & Understand</h3>
@@ -90,7 +110,7 @@
                             through the prompts and will help you manage your stress!
                             </p>
                         </div>
-                        <img class="step-img" src="/img/Rectangle 30.jpg" alt="Step img">
+                        <img class="step-img" src="./img/Rectangle 30.jpg" alt="Step img">
                     </div>
                     <div class="step">
                         <h3 class="step-heading" data-number="03">Alivio</h3>
@@ -99,7 +119,7 @@
                                 What are you waiting for? Alivio today!
                             </p>
                         </div>
-                        <img class="step-img" src="/img/Group 29.jpg" alt="Step img">
+                        <img class="step-img" src="./img/Group 29.jpg" alt="Step img">
                     </div>
                 </div>
             </div>
@@ -185,6 +205,6 @@
 
 
 
-    <script src='./script/script.js'></script>
+    <script src='./js/script.js'></script>
 </body>
 </html>

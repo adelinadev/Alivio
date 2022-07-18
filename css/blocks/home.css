@@ -1,7 +1,6 @@
 .home {
     position: relative;
     min-height: 895px;
-   
     padding-top: 175px;
     padding-bottom: 175px;
 }
@@ -38,4 +37,19 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+@media (max-width: 991px){
+    .home {
+        padding: 40px 0;
+        min-height: unset;
+    }
+
+    .home-heading{
+        font-size: 45px;
+        line-height: 1.2;
+    }
+    .home-bg-img img{
+        opacity: 0.5;
+    }
 }

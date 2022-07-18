@@ -76,3 +76,35 @@
     height: 65px;
     line-height: 65px;
 }
+
+@media (max-width: 1199px){
+    .header-row {
+        justify-content: space-between;
+    }
+
+    .header-nav {
+        margin-left: 30px; 
+    }
+    .header-nav li + li{
+        margin-right: 50px;
+    }
+    .header-login{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 991px){
+    .header-nav, .header-login {
+        display: none; 
+    }
+
+    .btn, a.btn{
+        padding-left: 30px;
+        padding-right: 30px;
+        min-height: 41px;
+    }
+
+    .btn-big, a.btn-big{
+        min-height: 55px;
+    }
+}
